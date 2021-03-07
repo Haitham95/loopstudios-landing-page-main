@@ -7,6 +7,7 @@ openBtn.addEventListener("click", () => {
     nav.classList.toggle("active");
     navList.classList.toggle("active")
     openBtn.style.display = "none";
+    closeBtn.style.display = "block";
 });
 
 closeBtn.addEventListener('click', () => {
