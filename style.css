@@ -84,6 +84,10 @@ a {
   gap: 30px;
 }
 
+#close {
+  display: none;
+}
+
 /* Header */
 
 header {
@@ -493,11 +497,8 @@ header {
     cursor: pointer;
   }
 
-  .mobile-nav .close {
+  #close {
     display: none;
-  }
-  .mobile-nav .close.active {
-    display: block;
   }
 
   .mobile-nav.active {
