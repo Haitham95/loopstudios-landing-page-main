@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script src="app.js" defer></script>
 
     <title>Frontend Mentor | Loopstudios landing page</title>
 
@@ -28,11 +29,15 @@
   <body class="defult">
     <header>
       <nav class="nav">
+        <div class="mobile-nav">
+          <a href="#"><img src="images/icon-close.svg" id="close" alt=""></a>
+        </div>
         <div class="container">
           <div class="flex flex-nav">
             <div class="logo">
               <a href="#"><img src="images/logo.svg" alt="logo" /></a>
             </div>
+            <div class="mobile-menu"></div>
             <div class="nav-list">
               <ul class="flex">
                 <li><a href="#">About</a></li>
